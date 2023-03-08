@@ -67,7 +67,6 @@ const GoogleMaps = ({ data }) => {
 
                     <Marker position={{ lat: -23.5489, lng: -46.6388 }} />
                     <Marker position={{ lat: -22.9068, lng: -43.1729 }} />
-                    {eventMap &&
                         <DistanceMatrixService
                             options={{
                                 origins: [origem],
@@ -81,7 +80,6 @@ const GoogleMaps = ({ data }) => {
                                 }
                             }}
                         />
-                    }
                 </GoogleMap>}
         </div>
     );
