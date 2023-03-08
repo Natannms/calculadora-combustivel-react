@@ -1,0 +1,13 @@
+.map-marker{
+    color: white;
+    background-color: rgb(233, 233, 233);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 120px;
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+}

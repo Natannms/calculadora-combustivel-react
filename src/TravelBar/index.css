@@ -1,0 +1,58 @@
+.SearchBar{
+    background: #2100b3;
+    display: flex;
+    padding: 10px;
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.input-group{
+    display: flex;
+    /* background: #5b0263; */
+}
+
+.group-horizon{
+    flex-direction: row;
+    padding: 4px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+.group-vertical{
+    flex-direction: column;
+    padding: 4px;
+    justify-content: center;
+    align-items: start;
+    margin-right: 20px;
+}
+
+.input{
+    border-radius: 6px;
+    margin-left: 4px;
+    height: 20px;
+    width: 100%;
+    
+}
+
+.input-vertical{
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 8px;
+    height: 20px;
+    width: 100%;
+}
+.input-button-vertical{
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 23px;
+    height: 20px;
+    width: 100%;
+}
+
+
+.formmatMoney{
+    color: rgb(0, 133, 0);
+    font-weight: bolder;
+    font-size: 20pt;
+}

@@ -1,0 +1,21 @@
+.functional-btn{
+    background: rgb(0, 94, 255);
+    color: white;
+    border-radius: 10px;
+    width: 96px;
+    height: 30px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.functional-btn:hover{
+    background: rgb(2, 36, 95);
+    color: white;
+    border-radius: 10px;
+    width: 96px;
+    height: 30px;
+    padding: 2px;
+}
